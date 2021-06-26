@@ -6,7 +6,7 @@ class HelloThere(MycroftSkill):
         MycroftSkill.__init__(self)
 
     @intent_file_handler('hello.there.intent')
-    def handle_there_hello(self, message):
+    def handle_hello_there(self, message):
         self.speak_dialog('hello.there')
 
 
